@@ -172,10 +172,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
                     const replyDeleteBtn = document.createElement('button');
                     replyDeleteBtn.innerHTML = "X"
-                    replyDeleteBtn.setAttribute("style", "font-size:3px; float: right; display: none")
+                    replyDeleteBtn.setAttribute("style", "font-size:8px; float: right; display: none")
                     replyCard.appendChild(replyDeleteBtn);
                     if (results[i].user.username === resultUserName) {
-                        replyDeleteBtn.setAttribute("style", "font-size:3px; float: right; display: block")
+                        replyDeleteBtn.setAttribute("style", "font-size:8px; float: right; display: block")
                     }
 
                     const replyContentEl = document.createElement('li');
